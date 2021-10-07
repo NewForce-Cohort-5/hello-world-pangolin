@@ -4,86 +4,101 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>PTA | Ireland</title>
   <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
   <header>
-    <nav class=”navi”>
-      <a href=”/” class=”logo”>
-        <div class="image">
-          <img src="images/logo.png" alt="logo">
-        </div>
-      </a>
-      <ul class=”countries”>
-        <li class=”country”><a href=”/brunei.html”>Brunei</a></li>
-        <li class=”country”><a href=”/ireland.html” class=”active”>Ireland</a></li>
-        <li class=”country”><a href=”/canada.html”>Canada</a></li>
-        <li class=”country”><a href=”/spain.html”>Spain</a></li>
-      </ul>
-    </nav>
+    <div class="container">
+      <nav class="nav">
+        <a href="/" class="logo">
+          <div class="image">
+            <img src="images/logo.png" alt="logo">
+          </div>
+        </a>
+        <ul class="countries">
+          <li class="country"><a href="brunei.html">Brunei</a></li>
+          <li class="country"><a href="ireland.html" class="active">Ireland</a></li>
+          <li class="country"><a href="canada.html">Canada</a></li>
+          <li class="country"><a href="spain.html">Spain</a></li>
+        </ul>
+      </nav>
+    </div>
   </header>
   
-  <div class="coutry-wrap">
-    <div class = “cntryimages”>
-      <img class= “cntryimage”  src =”” alt = “”  width=”“ height=””>
-    </div> 
-  
-    <div class = “imagecaption”>
-      <p>caption goes here</p>
-    </div> 
+  <div class="container">
+    <div class="country-wrap">
+      <div class="cntryimages">
+        <img class="cntryimage"  src ="images/ireland-1.png" alt = "Ireland">
+      </div> 
+    
+      <div class="imagecaption">
+        <p>
+          The Republic of Ireland occupies most of the island of Ireland, 
+          off the coast of England and Wales. Its capital, Dublin, 
+          is the birthplace of writers like Oscar Wilde, 
+          and home of Guinness beer. The 9th-century Book of 
+          Kells and other illustrated manuscripts are on show in Dublin’s 
+          Trinity College Library. Dubbed the "Emerald Isle” 
+          for its lush landscape, the country is dotted with castles 
+          like medieval Cahir Castle.
+        </p>
+      </div> 
+    </div>
+    
+    <section class="items-list-wrap">
+    
+      <!-- Cities -->
+      <div class="items-list">
+        <div class="list-header">
+          <!-- icon -->
+          <p>Cities</p>
+        </div>
+        <div class="list-wrap">
+          <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Dublin">Dublin</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Belfast">Belfast</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Kinsale">Kinsale</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- Landmarks -->
+      <div class="items-list">
+        <div class="list-header">
+          <!-- icon -->
+          <p>Landmarks</p>
+        </div>
+        <div class="list-wrap">
+          <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Rock_of_Cashel">Rock of Cashel</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Newgrange">Newgrange Tomb</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/St_Patrick%27s_Cathedral,_Dublin">St. Patrick's Cathedral</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <!-- Awesome Peeps -->
+      <div class="items-list">
+        <div class="list-header">
+          <!-- icon -->
+          <p>Awesome Peeps</p>
+        </div>
+        <div class="list-wrap">
+          <ul>
+            <li><a href="https://en.wikipedia.org/wiki/Liam_Neeson">Liam Neeson</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Colin_Farrell">Colin Farrell</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Bono">Bono</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
   </div>
   
-  <section class=”items-list-wrap”>
-  
-    <!-- Cities -->
-    <div class=”items-list”>
-      <div class="list-header">
-        <!-- icon -->
-        <p>Cities</p>
-      </div>
-      <div class="list-wrap">
-        <ul>
-          <li><a href="">Lorem City</a></li>
-          <li><a href="">Lorem City</a></li>
-          <li><a href="">Lorem City</a></li>
-        </ul>
-      </div>
-    </div>
-    
-    <!-- Landmarks -->
-    <div class=”items-list”>
-      <div class="list-header">
-        <!-- icon -->
-        <p>Landmarks</p>
-      </div>
-      <div class="list-wrap">
-        <ul>
-          <li><a href="">Lorem Landmark</a></li>
-          <li><a href="">Lorem Landmark</a></li>
-          <li><a href="">Lorem Landmark</a></li>
-        </ul>
-      </div>
-    </div>
-    
-    <!-- Awesome Peeps -->
-    <div class=”items-list”>
-      <div class="list-header">
-        <!-- icon -->
-        <p>Awesome Peeps</p>
-      </div>
-      <div class="list-wrap">
-        <ul>
-          <li><a href="">Lorem Peep</a></li>
-          <li><a href="">Lorem Peep</a></li>
-          <li><a href="">Lorem Peep</a></li>
-        </ul>
-      </div>
-    </div>
-  </section>
-  
   <footer>
-    <p>© 2021 Pangolin Travel Agency</p>
+    <div class="container">
+      <p class="copyright">© 2021 Pangolin Travel Agency</p>
+    </div>
   </footer>
 </body>
 </html>
