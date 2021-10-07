@@ -1,3 +1,18 @@
 body {
     background-color: gray;
 }
+
+.navi {
+    display: flex;
+    justify-content: space-around;
+}
+
+.countries {
+    display: flex;
+    justify-content: space-around;
+}
+
+.image img{
+    width: 150px;
+}
+
