@@ -16,6 +16,11 @@ header, footer {
     background-color: #cfe2f3;
 }
 
+h1, h2 {
+    text-shadow:2px 2px 10px rgb(37, 36, 36);
+}
+
+
 .logo {
     margin: 10px 0;
 }
@@ -27,6 +32,10 @@ header, footer {
 
 .active {
     color: #aaa;
+}
+
+.headline {
+    margin-bottom: 25px;
 }
 
 .country-wrap {
